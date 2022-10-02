@@ -27,3 +27,4 @@
     *  [技术架构元模型应用](./Chapter6/6.2.md) 
 *  [7. 总结](./Chapter7/README.md) 
 *  [8. 参考文献](./8-ref.md) 
+*  [9. 作者](./9-appendix.md) 
