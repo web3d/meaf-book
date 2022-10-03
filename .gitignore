@@ -4,3 +4,6 @@
 .history
 
 /_book
+*.pdf
+*.epub
+*.mobi
