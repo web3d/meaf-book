@@ -1,3 +1,7 @@
 {
-    
+    "title": "现代企业架构框架(MEAF)",
+    "description": "在线阅读版（仅供个人学习用）",
+    "styles": {
+        "website": "styles/website.css"
+    }
 }
