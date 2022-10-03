@@ -1,0 +1,632 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>6. MEAF — 技术架构 · 现代企业架构框架(MEAF)</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="6.1.html" />
+    
+    
+    <link rel="prev" href="../Chapter5/5.2.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter1/">
+            
+                <a href="../Chapter1/">
+            
+                    
+                    1. 引言：再提“业务平台化” 
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../Chapter1/1.1.html">
+            
+                <a href="../Chapter1/1.1.html">
+            
+                    
+                    企业现代化趋势
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../Chapter1/1.2.html">
+            
+                <a href="../Chapter1/1.2.html">
+            
+                    
+                    业务平台化内涵向前演进
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../Chapter1/1.3.html">
+            
+                <a href="../Chapter1/1.3.html">
+            
+                    
+                    企业架构设计方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../Chapter1/1.4.html">
+            
+                <a href="../Chapter1/1.4.html">
+            
+                    
+                    ThoughtWorks 发布现代企业架构框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../Chapter2/">
+            
+                <a href="../Chapter2/">
+            
+                    
+                    2. 现代企业架构框架（MEAF）
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Chapter2/2.1.html">
+            
+                <a href="../Chapter2/2.1.html">
+            
+                    
+                    企业架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Chapter2/2.2.html">
+            
+                <a href="../Chapter2/2.2.html">
+            
+                    
+                    企业架构框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Chapter2/2.3.html">
+            
+                <a href="../Chapter2/2.3.html">
+            
+                    
+                    现代企业架构框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Chapter2/2.4.html">
+            
+                <a href="../Chapter2/2.4.html">
+            
+                    
+                    现代企业架构框架设计原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Chapter2/2.5.html">
+            
+                <a href="../Chapter2/2.5.html">
+            
+                    
+                    现代企业架构框架元模型总览
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Chapter3/">
+            
+                <a href="../Chapter3/">
+            
+                    
+                    3. MEAF — 业务架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../Chapter3/3.1.html">
+            
+                <a href="../Chapter3/3.1.html">
+            
+                    
+                    业务架构元模型综述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../Chapter3/3.2.html">
+            
+                <a href="../Chapter3/3.2.html">
+            
+                    
+                    业务架构元模型应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../Chapter3/3.3.html">
+            
+                <a href="../Chapter3/3.3.html">
+            
+                    
+                    业务架构元模型补充说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Chapter4/">
+            
+                <a href="../Chapter4/">
+            
+                    
+                    4. MEAF — 应用架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../Chapter4/4.1.html">
+            
+                <a href="../Chapter4/4.1.html">
+            
+                    
+                    应用架构元模型综述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../Chapter4/4.2.html">
+            
+                <a href="../Chapter4/4.2.html">
+            
+                    
+                    应用架构元模型应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Chapter5/">
+            
+                <a href="../Chapter5/">
+            
+                    
+                    5. MEAF — 数据架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../Chapter5/5.1.html">
+            
+                <a href="../Chapter5/5.1.html">
+            
+                    
+                    数据架构元模型综述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../Chapter5/5.2.html">
+            
+                <a href="../Chapter5/5.2.html">
+            
+                    
+                    数据架构元模型应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    6. MEAF — 技术架构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="6.1.html">
+            
+                <a href="6.1.html">
+            
+                    
+                    技术架构元模型综述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="6.2.html">
+            
+                <a href="6.2.html">
+            
+                    
+                    技术架构元模型应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Chapter7/">
+            
+                <a href="../Chapter7/">
+            
+                    
+                    7. 总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../8-ref.html">
+            
+                <a href="../8-ref.html">
+            
+                    
+                    8. 参考文献
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../9-appendix.html">
+            
+                <a href="../9-appendix.html">
+            
+                    
+                    9. 作者
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10-concept.html">
+            
+                <a href="../10-concept.html">
+            
+                    
+                    10. 概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >6. MEAF — 技术架构</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x73B0;&#x4EE3;&#x4F01;&#x4E1A;&#x67B6;&#x6784;&#x6846;&#x67B6;-&#x2014;-&#x6280;&#x672F;&#x67B6;&#x6784;">&#x73B0;&#x4EE3;&#x4F01;&#x4E1A;&#x67B6;&#x6784;&#x6846;&#x67B6; &#x2014; <code>&#x6280;&#x672F;&#x67B6;&#x6784;</code></h1>
+<p><code>&#x6280;&#x672F;&#x67B6;&#x6784;</code>&#x662F;&#x5BF9;&#x67D0;&#x4E00;&#x6280;&#x672F;&#x95EE;&#x9898;&#xFF08;&#x9700;&#x6C42;&#xFF09;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x7684;&#x7ED3;&#x6784;&#x5316;&#x63CF;&#x8FF0;&#xFF0C;&#x7531;&#x6784;&#x6210;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x7684;&#x7EC4;&#x4EF6;&#x7ED3;&#x6784;&#x53CA;&#x4E4B;&#x95F4;&#x7684;&#x4EA4;&#x4E92;&#x5173;&#x7CFB;&#x6784;&#x6210;&#x3002;</p>
+<p>&#x5E7F;&#x4E49;&#x4E0A;&#x7684;<code>&#x6280;&#x672F;&#x67B6;&#x6784;</code>&#x662F;&#x4E00;&#x7CFB;&#x5217;&#x6DB5;&#x76D6;&#x591A;&#x7C7B;&#x6280;&#x672F;&#x95EE;&#x9898;&#x8BBE;&#x8BA1;&#x65B9;&#x6848;&#x7684;&#x7EDF;&#x79F0;&#xFF0C;&#x4F8B;&#x5982;&#x90E8;&#x7F72;&#x65B9;&#x6848;&#x3001;&#x5B58;&#x50A8;&#x65B9;&#x6848;&#x3001;&#x7F13;&#x5B58;&#x65B9;&#x6848;&#x3001;&#x65E5;&#x5FD7;&#x65B9;&#x6848;&#x7B49;&#x7B49;&#x3002;</p>
+<p><code>&#x4F01;&#x4E1A;&#x67B6;&#x6784;</code>&#x4E2D;&#x7684;<code>&#x6280;&#x672F;&#x67B6;&#x6784;</code>&#x805A;&#x7126;&#x5728;&#x5BF9;&#x4E1A;&#x52A1;&#x3001;&#x5E94;&#x7528;&#x3001;&#x6570;&#x636E;&#x7B49;<code>&#x4E0A;&#x5C42;&#x67B6;&#x6784;&#x8BBE;&#x8BA1;</code>&#x610F;&#x56FE;&#x7684;&#x5F00;&#x53D1;&#x5B9E;&#x65BD;&#x65B9;&#x6848;&#x7684;&#x7ED3;&#x6784;&#x5316;&#x63CF;&#x8FF0;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x5E0C;&#x671B;&#x7ED3;&#x5408;&#x5F53;&#x524D;&#x4F01;&#x4E1A;<code>&#x6570;&#x5B57;&#x5316;&#x5EFA;&#x8BBE;</code>&#x7684;&#x4E3B;&#x6D41;&#x8D8B;&#x52BF;&#x548C;&#x65B0;&#x6280;&#x672F;&#x6210;&#x719F;&#x666E;&#x53CA;&#x7684;&#x5927;&#x73AF;&#x5883;&#xFF0C;&#x9610;&#x8FF0;&#x6211;&#x4EEC;&#x5BF9;<code>&#x6280;&#x672F;&#x67B6;&#x6784;</code>&#x8BBE;&#x8BA1;&#x7684;&#x89C2;&#x5BDF;&#x53CA;&#x601D;&#x8003;&#x3002;</p>
+<p><img src="../static/img-6.1-1.png" alt="&#x56FE; 6.1-1 &#x4F01;&#x4E1A;&#x7EA7;`&#x6280;&#x672F;&#x67B6;&#x6784;&#x5143;&#x6A21;&#x578B;`"></p>
+<p>( &#x56FE; 6.1-1 &#x4F01;&#x4E1A;&#x7EA7;<code>&#x6280;&#x672F;&#x67B6;&#x6784;&#x5143;&#x6A21;&#x578B;</code> )</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Chapter5/5.2.html" class="navigation navigation-prev " aria-label="Previous page: 数据架构元模型应用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="6.1.html" class="navigation navigation-next " aria-label="Next page: 技术架构元模型综述">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"6. MEAF — 技术架构","level":"1.7","depth":1,"next":{"title":"技术架构元模型综述","level":"1.7.1","depth":2,"path":"Chapter6/6.1.md","ref":"./Chapter6/6.1.md","articles":[]},"previous":{"title":"数据架构元模型应用","level":"1.6.2","depth":2,"path":"Chapter5/5.2.md","ref":"./Chapter5/5.2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"现代企业架构框架(MEAF)","gitbook":"*","description":"在线阅读版（仅供个人学习用）"},"file":{"path":"Chapter6/README.md","mtime":"2022-10-03T01:10:59.492Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-03T02:36:02.715Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

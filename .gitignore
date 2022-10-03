@@ -1,0 +1,9 @@
+
+.DS_Store
+.vscode
+.history
+
+/_book
+*.pdf
+*.epub
+*.mobi
