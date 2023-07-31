@@ -3,5 +3,17 @@
     "description": "在线阅读版（仅供个人学习用）",
     "styles": {
         "website": "styles/website.css"
+    },
+    "plugins" : [ "anchor-navigation-ex" ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "showGoTop": true,
+            "isRewritePageTitle": true,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
     }
 }
